@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hey {first}👻\n\nI'm a </b><b>Permanent File Store Bot-!!🤖\n\n</b><b><i><u>Send Me Any File I Will Give You a Permanent Sharable Link.✨</u></i></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b><i><u>- ɪ'ᴍ ᴀ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ-!!</u></i></b>👻<b>\n\n</b><b><i><u>- sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ɪ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ ᴀ ᴘᴇʀᴍᴀɴᴇɴᴛ sʜᴀʀᴀʙʟᴇ ʟɪɴᴋ-!!✨</u></i></b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
+USER_REPLY_TEXT = "<b><i><u>- ᴅᴏɴ'ᴛ sᴇɴᴅ ᴍᴇ ᴍᴇssᴀɢᴇs ᴅɪʀᴇᴄᴛʟʏ - ɪ'ᴍ ᴏɴʟʏ ғɪʟᴇ sʜᴀʀᴇ ʙᴏᴛ-!!👻\n\- sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ɪ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ ᴀ ᴘᴇʀᴍᴀɴᴇɴᴛ sʜᴀʀᴀʙʟᴇ ʟɪɴᴋ-!!✨</u></i></b>"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
